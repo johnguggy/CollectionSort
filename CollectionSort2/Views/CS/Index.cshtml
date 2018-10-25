@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+The sorted collection of random numbers are
+@foreach (var number in ViewBag.randnums)
+{
+    <li>@number</li>
+}
